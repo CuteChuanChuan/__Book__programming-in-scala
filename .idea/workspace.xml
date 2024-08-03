@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d47b2b7-1b62-4b11-b1ee-6ff42447e1dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,19 +65,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.chapter1.executor": "Run",
+    "Application.chapter2.executor": "Run",
+    "Application.m.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feat/chapter-1-to-3",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/raymond/Dropbox/GitHub-Repo/Mine/book-porgramming-in-scala/book-programming-in-scala/src/main/scala",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Scala",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.m">
     <configuration name="chapter1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="chapter1" />
       <module name="book-programming-in-scala" />
@@ -85,8 +93,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chapter2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2" />
+      <module name="book-programming-in-scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="m" />
+      <module name="book-programming-in-scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.m" />
+        <item itemvalue="Application.chapter2" />
         <item itemvalue="Application.chapter1" />
       </list>
     </recent_temporary>
@@ -112,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722440667668</updated>
       <workItem from="1722440668707" duration="1808000" />
-      <workItem from="1722442487110" duration="5361000" />
+      <workItem from="1722442487110" duration="15460000" />
+      <workItem from="1722701816054" duration="2800000" />
     </task>
     <servers />
   </component>
