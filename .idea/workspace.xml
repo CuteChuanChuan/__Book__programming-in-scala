@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d47b2b7-1b62-4b11-b1ee-6ff42447e1dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapterFourToSix/ChecksumAccumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapterFourToSix/Summer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/chapter-4-to-6" />
+                    <option name="lastUsedInstant" value="1722758548" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/chapter-1-to-3" />
                     <option name="lastUsedInstant" value="1722441163" />
                   </RecentBranch>
@@ -49,6 +56,10 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -63,12 +74,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ChecksumAccumulatorSingleton.executor": "Run",
+    "Application.Summer.executor": "Run",
     "Application.chapter1.executor": "Run",
     "Application.chapter2.executor": "Run",
     "Application.m.executor": "Run",
+    "Application.m1.executor": "Run",
     "Application.parenthesisApply.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feat/chapter-1-to-3",
+    "git-widget-placeholder": "feat/chapter-4-to-6",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/raymond/Dropbox/GitHub-Repo/Mine/book-porgramming-in-scala/book-programming-in-scala/src/main/scala",
     "last_opened_file_path": "/Users/raymond/Dropbox/GitHub-Repo/Mine/book-porgramming-in-scala/book-programming-in-scala/src/main/scala",
@@ -89,17 +103,29 @@
       <recent name="$PROJECT_DIR$/src/main/scala/chapterOneToThree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.parenthesisApply">
-    <configuration name="chapter1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1" />
+  <component name="RunManager" selected="Application.Summer">
+    <configuration name="ChecksumAccumulatorSingleton" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chpaterFourToSix.ChecksumAccumulatorSingleton" />
       <module name="book-programming-in-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFourToSix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2" />
+    <configuration name="Summer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFourToSix.Summer" />
       <module name="book-programming-in-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFourToSix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +133,19 @@
     <configuration name="m" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="m" />
       <module name="book-programming-in-scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFourToSix.m1" />
+      <module name="book-programming-in-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFourToSix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Summer" />
+        <item itemvalue="Application.m1" />
+        <item itemvalue="Application.ChecksumAccumulatorSingleton" />
         <item itemvalue="Application.parenthesisApply" />
         <item itemvalue="Application.m" />
-        <item itemvalue="Application.chapter2" />
-        <item itemvalue="Application.chapter1" />
       </list>
     </recent_temporary>
   </component>
